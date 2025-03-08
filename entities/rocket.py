@@ -26,7 +26,7 @@ class Rocket(SpaceVehicleBase):
             raise ValueError("Poziom paliwa nie może być ujemny!")
         self._fuel_level = value
         
-    # Implementacja metody abstrakcyjnej launch_sequence
+    # Implementacja metody abstrakcyjnej launch_sequence #
     def launch_sequence(self):
         # Sprawdzenie, czy poziom paliwa jest wystarczający
         if self._fuel_level > 50:
